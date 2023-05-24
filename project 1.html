@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel the world</title>
+    
+    <style>
+        *{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Century Gothic';
+}
+header{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/234/833/desktop-wallpaper-beautiful-greenery-of-real-nature-scene-beauty-of-nature.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration:none;
+    color: rgb(89, 0, 255);
+    padding: 5px 20px;
+    border: 2px solid black;
+    transition: 0.5s ease;
+
+}
+ul li a:hover{
+    background-color: white;
+    color: rgb(255, 0, 128);
+}
+ul li.active a{
+    background-color: white;
+    color: rgb(255, 0, 234);
+
+} 
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+/* .main{
+    max-width: 1200px;
+    margin: auto;
+} */
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-200%);
+    font-size: large;
+}
+
+.title h1{
+    font-size: 50px;
+    color: black;
+}
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%,-1%);
+
+}
+.btn{
+    border: 1px solid black;
+    padding: 10px,30px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 25px;
+}
+.btn:hover{
+    background-color: yellow;
+    color: rgb(0, 21, 255);
+
+}
+.title{
+    border: 5px solid black;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="main">
+                <div class="logo">
+                <img src="logo.png">
+
+            </div>
+            <ul>
+                <li class="active"><a href="#"><b>Home</b></a></li>
+                <li><a href="#"><b>Gallery</b></a></li>
+                <li><a href="#"><b>Contact</b></a></li>
+                <li><a href="#"><b>Services</b></a></li>
+                <li><a href="#"><b>About</b></a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>Travel the world</h1>
+        </div>
+        <div class="button">
+            <a href="#" class="btn"><b>Watch Video</b></a>
+            <a href="#" class="btn"><b>Learn more</b></a>
+
+
+        </div>
+    </header>
+    
+</body>
+</html>
